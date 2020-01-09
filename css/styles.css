@@ -1,0 +1,25 @@
+hr {
+    border: 2px solid maroon;
+}
+
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40vh;
+    background-image: url("https://images.unsplash.com/photo-1470004914212-05527e49370b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+
+    background-size:  100vh;
+    background-repeat: no-repeat;
+    background-position: 20% 40%;
+ text-align: center;
+}
+.jumbotron p {
+    color: white;
+    font-weight: 350;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.jumbotron h1 {
+    color: black;
+    text-shadow: 1px 1px 2px whitesmoke, 0 0 1em black, 0 0 0.2em black;
+}
